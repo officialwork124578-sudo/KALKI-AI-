@@ -1,0 +1,16 @@
+{
+  "01_shell":        {"desc":"run shell command","arg":"cmd","level":"danger"},
+  "02_open_url":     {"desc":"open URL in browser","arg":"url","level":"safe"},
+  "03_sms":          {"desc":"send SMS","arg":"number|body","level":"danger"},
+  "04_notify":       {"desc":"android notification","arg":"text","level":"safe"},
+  "05_clipboard":    {"desc":"clipboard get/set","arg":"get|set text","level":"safe"},
+  "06_battery":      {"desc":"battery status","arg":"","level":"safe"},
+  "07_location":     {"desc":"get GPS location","arg":"","level":"medium"},
+  "08_camera":       {"desc":"take photo","arg":"path","level":"medium"},
+  "09_tts":          {"desc":"speak text","arg":"text","level":"safe"},
+  "10_file_read":    {"desc":"read file","arg":"path","level":"medium"},
+  "11_file_write":   {"desc":"write file","arg":"path|content","level":"danger"},
+  "12_http_get":     {"desc":"http GET","arg":"url","level":"safe"},
+  "13_ssh_run":      {"desc":"remote ssh cmd","arg":"host|cmd","level":"danger"},
+  "14_web_search":   {"desc":"duckduckgo search","arg":"query","level":"safe"}
+}

@@ -1,0 +1,21 @@
+# NEVER push keys
+*.key
+keys/
+**/keys/
+.env
+*.env
+secrets/
+
+# Logs & sessions
+logs/
+*.log
+sessions/
+
+# Backups
+backups/
+*.bak*
+*.bak.*
+
+# Termux specific
+*.tmp
+.cache/
